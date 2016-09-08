@@ -10,7 +10,7 @@ Outside of creating methods for these box objects, do not change any of the prop
 _Note : Methods are function properties of objects. Pay attention to their location relative to the object `myObj`_
 
 Function : 
-````
+```javascript
 var myObj = {
 	greeting : "Hello",
 }
@@ -18,10 +18,10 @@ var myObj = {
 var greet = function (){
 	console.log(myObj.greeting);
 }
-````
+```
 
 Method :
-````
+```javascript
 var myObj = {
 	greeting : "Hello",
 
@@ -29,12 +29,14 @@ var myObj = {
 		console.log(this.greeting);
 	}
 }
-````
+```
 ###Creating methods
 
 * [ ] Create a method "paint" that takes a string argument and assigns it to the color property 
 
 * [ ] Create a method "getVolume" that calculates and returns the volume of an object. Not sure how to calculate the volume of a box (cube)? Look it up here : http://bit.ly/2cgU690
+
+* [ ] create a method named "addItem" that takes a string argument, adds it to the box's "contents" array, and logs the updated contents of the box.
 
 ###Creating Functions
 
@@ -42,7 +44,6 @@ var myObj = {
 
 * [ ] create a function "heavierBox" that takes two box objects as arguments, and returns the heavier box. If they weigh the same, `return` the string "They weigh the same".
 
-* [ ] create a function named "addItem" that takes a string argument, adds it to the box's "contents" array, and logs the updated contents of the box.
 
 ##EXTRA CREDIT
 * [ ] create a function named "dump" that takes two box objects as arguments, and transfers all the contents of the box with fewer contents into the other box's contents. One box will have an empty "contents" array, and the other will have all the items in it.
