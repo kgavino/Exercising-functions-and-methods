@@ -40,7 +40,7 @@ var myObj = {
 
 ###Creating Functions
 
-* [ ] create a function "compareVolumes" that takes two box objects as arguments, and logs the larger box.
+* [ ] create a function "compareVolumes" that takes two box objects as arguments, and logs the box with the greater volume. 
 
 * [ ] create a function "heavierBox" that takes two box objects as arguments, and returns the heavier box. If they weigh the same, `return` the string "They weigh the same".
 
